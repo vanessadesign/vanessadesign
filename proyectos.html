@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>VANGOM</title>
+	
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    
+	<!-- JavaScript -->
+    <script type="text/javascript"  src="navegacion-proyectos.js"></script>
+
+	<!--CSS-->
+	<link rel="stylesheet" href="estilos.css">
+
+	<!-- fuentes -->
+	<link href='https://fonts.googleapis.com/css?family=Poppins:400,300,500,600,700' rel='stylesheet' type='text/css'>
+
+	<!-- favicon -->
+	<link rel="icon" type="image/ico" href="images/gesco-icon.png" />
+    <link rel="shortcut icon" type="image/ico" href="insumos/icono.png" />    
+
+</head>
+    
+<body id="body-proyectos">
+    
+    <div id="navegacion">
+        <a href="index.html">
+            <img href="index.html" src="insumos/icn-home-v.png" id="btn-home">
+        </a>
+        <ul id="puntos">
+            <li class="punto-navegacion punto-actual" onclick="navegarProyectos(0)"></li>
+            <li class="punto-navegacion punto-proximo" onclick="navegarProyectos(1)"></li>
+            <li class="punto-navegacion punto-proximo" onclick="navegarProyectos(2)"></li>
+            <li class="punto-navegacion punto-proximo" onclick="navegarProyectos(3)"></li>
+            <li class="punto-navegacion punto-proximo" onclick="navegarProyectos(4)"></li>
+            <li class="punto-navegacion punto-proximo" onclick="navegarProyectos(5)"></li>
+            <li class="punto-navegacion punto-proximo" onclick="navegarProyectos(6)"></li>
+        </ul>
+    </div>
+    <input type="image" src="insumos/icn-flecha-der.png" class="btn-nav-proyectos" id="btn-siguiente">
+    <input type="image" src="insumos/icn-flecha-izq.png" class="btn-nav-proyectos" id="btn-anterior">
+    
+    
+    <!--DOMU - PROYECTO 0-->
+    
+    <div class="proyecto activo" id="proyecto0">
+        <img class="portada-proyecto" src="insumos/proyecto-domu/banner-domu.png">
+        <div class="container-proyecto descripcion-proyecto">
+            <p class="texto-descripcion">Domu es una experiencia que busca la creación de una comunidad para fortalecer el proceso de acompañamiento psicosocial y facilitar la comunicación e interacción que se dan en las relaciones observadas en la unidad de hospitalización pediátrica: Paciente - Paciente y Paciente - Acompañante.</p>
+            
+            <div class="foto-descripcion">
+                <img src="insumos/proyecto-domu/img-arriba-domu.png"> 
+            </div> 
+        </div>
+        <ul class="container-proyecto temas-proyecto">
+            <li><img src="insumos/hab-1.png"></li>
+            <li><img src="insumos/hab-3.png"></li>
+            <li><img src="insumos/hab-4.png"></li>
+            <li><img src="insumos/hab-9.png"></li>
+        </ul>
+        <div class="container-proyecto proceso-proyecto">
+            <div class="paso-proceso">
+                <div class="columna-texto sin-borde-arriba">
+                    <h3>Problema</h3>
+                    <p>¿De qué manera se puede crear una experiencia que fortalezca el acompañamiento psicosocial en pacientes pediátricos?</p>
+                </div>
+                <div class="columna-imagenes punto-diamante">
+<!--                    <img src="insumos/proyecto-domu/circulo-diamante.png">-->
+                </div>
+            </div>
+            <div class="paso-proceso">
+                <div class="columna-texto">
+                    <h3>Investigación</h3>
+                    <p class="palabras-clave">Hospitalización (Situación)</p>
+                    <p class="palabras-clave">Factores que afectan</p>
+                    <p class="palabras-clave">Apoyo psicosocial</p>
+                </div>
+                <div class="columna-imagenes triangulo">
+                    <img src="insumos/proyecto-domu/diamante-domu-1.png">
+                </div>
+            </div>
+            <div class="paso-proceso">
+                <div class="columna-texto sin-borde-arriba">
+                    <h3>Clarificación</h3>
+                    <p class="palabras-clave">Relaciones (Situación)</p>
+                    <p class="palabras-clave">Dimensiones del desarrollo</p>
+                    <p class="palabras-clave">Aporte del diseño</p>
+                </div>
+                <div class="columna-imagenes triangulo">
+                    <img src="insumos/proyecto-domu/diamante-domu-2.png">
+                </div>
+            </div>
+            <div class="paso-proceso">
+                <div class="columna-texto sin-borde-arriba">
+                    <h3>Análisis del problema</h3>
+                </div>                
+                <div class="columna-imagenes punto-diamante">
+<!--                    <img src="insumos/proyecto-domu/circulo-diamante.png">-->
+                </div>
+            </div>
+            <div class="paso-proceso">
+                <div class="columna-texto ">
+                    <h3>Idear</h3>
+                    <p class="palabras-clave">Conectar pacientes</p>
+                    <p class="palabras-clave">Extraer de la situación</p>
+                    <p class="palabras-clave">Permitir creación</p>
+                </div>
+                <div class="columna-imagenes triangulo">
+                    <img src="insumos/proyecto-domu/diamante-domu-3.png">
+                </div>
+            </div>
+            <div class="paso-proceso">
+                <div class="columna-texto sin-borde-arriba con-borde-abajo">
+                    <h3>Desarrollar</h3>
+                    <p class="palabras-clave">Metáfora del contexto</p>
+                    <p class="palabras-clave">Participación de los usuarios</p>
+                    <p class="palabras-clave">Interfaces: digital y física</p>
+                </div>
+                <div class="columna-imagenes triangulo">
+                    <img src="insumos/proyecto-domu/diamante-domu-4.png">
+                </div>
+            </div>
+            
+        </div>
+        <div class="container-proyecto descripcion-proyecto">
+            <h3>Solución</h3>
+            <p class="texto-descripcion">Una comunidad con interfaces digital y física que potencializa las relaciones entre pacientes y entre pacientes y acompañantes en el proceso de hospitalización, fortaleciendo sus dimensiones del desarrollo.</p>
+            
+            <div class="foto-descripcion">
+                <img src="insumos/proyecto-domu/img-abajo-domu.png"> 
+            </div> 
+        </div>
+        <img class="footer-proyecto" src="insumos/proyecto-domu/banner-inferior-domu.png">
+    </div><!--Cierre proyecto-->
+    
+    <!--MONEY SENSEI - PROYECTO 1-->
+    
+    <div class="proyecto proximo" id="proyecto1">
+        <img class="portada-proyecto" src="insumos/proyecto-roomob/banner-roomob.png">
+        <div class="container-proyecto descripcion-proyecto">
+            <p class="texto-descripcion">Roomob tiene como objetivo principal facilitar la forma de encontrar un lugar donde vivir en una ciudad nueva. La idea es que por medio de la aplicación se pueda conocer un poco de las habitaciones libres para arrendar y de su posible roomie.</p>
+            
+            <div class="foto-descripcion">
+                <img src="insumos/proyecto-roomob/img-arriba-roomob.png"> 
+            </div> 
+        </div>
+        <ul class="container-proyecto temas-proyecto">
+            <li><img src="insumos/hab-1.png"></li>
+            <li><img src="insumos/hab-3.png"></li>
+            <li><img src="insumos/hab-4.png"></li>
+            <li><img src="insumos/hab-7.png"></li>
+        </ul>
+        <div class="container-proyecto proceso-proyecto">
+            <div class="paso-proceso">
+                <div class="columna-texto sin-borde-arriba">
+                    <h3>Problema</h3>
+                    <p>¿Cómo poder facilitar la manera de encontrar un lugar confiable donde vivir en una ciudad o país nuevo por medio de herramientas tecnológicas?</p>
+                </div>
+                <div class="columna-imagenes punto-diamante">
+<!--                    <img src="insumos/proyecto-domu/circulo-diamante.png">-->
+                </div>
+            </div>
+            <div class="paso-proceso">
+                <div class="columna-texto">
+                    <h3>Investigación</h3>
+                    <p class="palabras-clave">Alojamiento</p>
+                    <p class="palabras-clave">Filtros de búsqueda</p>
+                    <p class="palabras-clave">Factores de confianza</p>
+                    <p class="palabras-clave">Benchmark </p>
+                </div>
+                <div class="columna-imagenes triangulo">
+                    <img src="insumos/proyecto-roomob/diamante-roomob-1.png">
+                </div>
+            </div>
+            <div class="paso-proceso">
+                <div class="columna-texto sin-borde-arriba">
+                    <h3>Clarificación</h3>
+                    <p class="palabras-clave">Formas de búsqueda</p>
+                    <p class="palabras-clave">Información de las habitaciones</p>
+                    <p class="palabras-clave">Formas de comunicación </p>
+                    
+                </div>
+                <div class="columna-imagenes triangulo">
+                    <img src="insumos/proyecto-roomob/diamante-roomob-2.png">
+                </div>
+            </div>
+            <div class="paso-proceso">
+                <div class="columna-texto sin-borde-arriba">
+                    <h3>Análisis del problema</h3>
+                </div>                
+                <div class="columna-imagenes punto-diamante">
+<!--                    <img src="insumos/proyecto-domu/circulo-diamante.png">-->
+                </div>
+            </div>
+            <div class="paso-proceso">
+                <div class="columna-texto ">
+                    <h3>Idear</h3>
+                    <p class="palabras-clave">Búsqueda de habitación</p>
+                    <p class="palabras-clave">Publicación de habitación</p>
+                    <p class="palabras-clave">Calificaciones y comentarios</p>
+                    <p class="palabras-clave">Chat entre roomies</p>
+                </div>
+                <div class="columna-imagenes triangulo">
+                    <img src="insumos/proyecto-roomob/diamante-roomob-3.png">
+                </div>
+            </div>
+            <div class="paso-proceso">
+                <div class="columna-texto sin-borde-arriba con-borde-abajo">
+                    <h3>Desarrollar</h3>
+                    <p class="palabras-clave">Comunidad de roomies</p>
+                    <p class="palabras-clave">Aplicación móvil</p>
+                    <p class="palabras-clave">Sitio web </p>
+                </div>
+                <div class="columna-imagenes triangulo">
+                    <img src="insumos/proyecto-roomob/diamante-roomob-4.png">
+                </div>
+            </div>
+            
+        </div>
+        <div class="container-proyecto descripcion-proyecto">
+            <h3>Solución</h3>
+            <p class="texto-descripcion">Comunidad de roomies en donde puedes publicar y buscar habitaciones por medio de una aplicación móvil o de escritorio. Sin importar la distancias podrás conocer tu futura habitación, sus comodidades, valor y saber las características de tu próximo roomie. </p>
+            
+            <div class="foto-descripcion">
+                <img src="insumos/proyecto-roomob/img-abajo-roomob.png"> 
+            </div> 
+        </div>
+        <img class="footer-proyecto" src="insumos/proyecto-roomob/banner-inferior-roomob.png">
+    </div><!--Cierre proyecto-->
+    
+    <!--MONEY SENSEI - PROYECTO 2-->
+    
+    <div class="proyecto proximo" id="proyecto2">
+        <img class="portada-proyecto" src="insumos/proyecto-moneysensei/banner-moneysensei.png">
+        <div class="container-proyecto descripcion-proyecto">
+            <p class="texto-descripcion">Money Sensei es una aplicación móvil que funciona como asistente para las finanzas personales. Lleva el control de los ingresos y gastos personales, además de brindar asesoría para un manejo responsable del dinero.</p>
+            
+            <div class="foto-descripcion">
+                <img src="insumos/proyecto-moneysensei/img-arriba-moneysensei.png"> 
+            </div> 
+        </div>
+        <ul class="container-proyecto temas-proyecto">
+            <li><img src="insumos/hab-1.png"></li>
+            <li><img src="insumos/hab-3.png"></li>
+            <li><img src="insumos/hab-4.png"></li>
+            <li><img src="insumos/hab-7.png"></li>
+        </ul>
+        <div class="container-proyecto proceso-proyecto">
+            <div class="paso-proceso">
+                <div class="columna-texto sin-borde-arriba">
+                    <h3>Problema</h3>
+                    <p>¿Cómo, a través de una herramienta tecnológica, se puede facilitar el control y brindar asesoría en las finanzas personales?</p>
+                </div>
+                <div class="columna-imagenes punto-diamante">
+<!--                    <img src="insumos/proyecto-domu/circulo-diamante.png">-->
+                </div>
+            </div>
+            <div class="paso-proceso">
+                <div class="columna-texto">
+                    <h3>Investigación</h3>
+                    <p class="palabras-clave">Ahorro</p>
+                    <p class="palabras-clave">Situación económica</p>
+                    <p class="palabras-clave">Comportamiento financiero</p>
+                </div>
+                <div class="columna-imagenes triangulo">
+                    <img src="insumos/proyecto-moneysensei/diamante-moneysensei-1.png">
+                </div>
+            </div>
+            <div class="paso-proceso">
+                <div class="columna-texto sin-borde-arriba">
+                    <h3>Clarificación</h3>
+                    <p class="palabras-clave">Rutinas y responsabilidades</p>
+                    <p class="palabras-clave">Movimientos diarios</p>
+                    <p class="palabras-clave">Influencia social</p>
+                </div>
+                <div class="columna-imagenes triangulo">
+                    <img src="insumos/proyecto-moneysensei/diamante-moneysensei-2.png">
+                </div>
+            </div>
+            <div class="paso-proceso">
+                <div class="columna-texto sin-borde-arriba">
+                    <h3>Análisis del problema</h3>
+                </div>                
+                <div class="columna-imagenes punto-diamante">
+<!--                    <img src="insumos/proyecto-domu/circulo-diamante.png">-->
+                </div>
+            </div>
+            <div class="paso-proceso">
+                <div class="columna-texto ">
+                    <h3>Idear</h3>
+                    <p class="palabras-clave">Sistema de recomendaciones</p>
+                    <p class="palabras-clave">Prevención de gastos</p>
+                    <p class="palabras-clave">Seguimiento diario</p>
+                    <p class="palabras-clave">Ahorro programado</p>
+                </div>
+                <div class="columna-imagenes triangulo">
+                    <img src="insumos/proyecto-moneysensei/diamante-moneysensei-3.png">
+                </div>
+            </div>
+            <div class="paso-proceso">
+                <div class="columna-texto sin-borde-arriba con-borde-abajo">
+                    <h3>Desarrollar</h3>
+                    <p class="palabras-clave">Aplicación móvil</p>
+                    <p class="palabras-clave">Asistente/acompañante</p>
+                    <p class="palabras-clave">Representación de movimientos</p>
+                </div>
+                <div class="columna-imagenes triangulo">
+                    <img src="insumos/proyecto-moneysensei/diamante-moneysensei-4.png">
+                </div>
+            </div>
+            
+        </div>
+        <div class="container-proyecto descripcion-proyecto">
+            <h3>Solución</h3>
+            <p class="texto-descripcion">Acompañante digital que proporciona recomendaciones sobre los comportamientos financieros del usuario y lo apoya en el control de sus movimientos.</p>
+            
+            <div class="foto-descripcion">
+                <img src="insumos/proyecto-moneysensei/img-deabajo-moneysensei.png"> 
+            </div> 
+        </div>
+        <img class="footer-proyecto" src="insumos/proyecto-moneysensei/banner-inferior-moneysensei.png">
+    </div><!--Cierre proyecto-->
+    
+    
+    <!--D&M - PROYECTO 3-->
+    
+    <div class="proyecto proximo" id="proyecto3">
+        
+        <img class="portada-proyecto" src="insumos/proyecto-dym/banner-dym.png">
+        <div class="container-proyecto descripcion-proyecto">
+            <p class="texto-descripcion">D&amp;M Software Solutions es una compañia experta en soluciones de software. Cuenta con diferentes productos como: GESCO, CSAD, GLOPEM E ISOFTWARE.</p>
+            
+            <div class="foto-descripcion">
+                <img src="insumos/proyecto-dym/img-arriba-dym.png"> 
+            </div> 
+        </div>
+        <ul class="container-proyecto temas-proyecto">
+            <li><img src="insumos/hab-2.png"></li>
+            <li><img src="insumos/hab-3.png"></li>
+            <li><img src="insumos/hab-4.png"></li>
+            <li><img src="insumos/hab-7.png"></li>
+        </ul>
+        
+        <div class="container-proyecto proceso-proyecto">
+            <div class="paso-proceso">
+                <div class="columna-texto sin-borde-arriba">
+                    <h3>D&amp;M Software Solutions</h3>
+                </div>
+            </div>
+            <div class="paso-proceso">
+                <div class="columna-texto borde-derecha">
+                    <p class="palabras-clave">Creación de marca</p>
+                    <p class="palabras-clave">Aplicación de marca</p>
+                    <img src="insumos/proyecto-dym/contenido-1-dym.png">
+                </div>
+                <div class="columna-imagenes circulo">
+                    <img src="insumos/proyecto-dym/ciruclo-dym-1.png">
+                </div>
+            </div>
+            <div class="paso-proceso">
+                <div class="columna-texto sin-borde-arriba">
+                    <h3>GESCO</h3>
+                </div>
+            </div>
+            <div class="paso-proceso">
+                <div class="columna-texto borde-derecha">
+                    <p class="palabras-clave">Creación de marca</p>
+                    <p class="palabras-clave">Aplicación de marca</p>
+                    <p class="palabras-clave">Diseño de interfaz de usuario</p>
+                    <img src="insumos/proyecto-dym/contenido-2-dym.png">
+                </div>
+                <div class="columna-imagenes circulo">
+                    <img src="insumos/proyecto-dym/ciruclo-dym-2.png">
+                </div>
+            </div>
+            <div class="paso-proceso">
+                <div class="columna-texto sin-borde-arriba">
+                    <h3>ISOftware</h3>
+                </div>    
+            </div>
+            <div class="paso-proceso">
+                <div class="columna-texto borde-derecha">
+                    <p class="palabras-clave">Creación de marca</p>
+                    <p class="palabras-clave">Aplicación de marca</p>
+                    <img src="insumos/proyecto-dym/contenido-3-dym.png">
+                </div>
+                <div class="columna-imagenes circulo">
+                    <img src="insumos/proyecto-dym/ciruclo-dym-3.png">
+                </div>
+            </div>
+        </div>
+        
+        <img class="footer-proyecto" src="insumos/proyecto-dym/banner-inferior-dym.png">
+    </div><!--Cierre proyecto-->
+    
+    
+    <!--LEGALAPP - PROYECTO 4-->
+    
+    <div class="proyecto proximo" id="proyecto4">
+        <img class="portada-proyecto" src="insumos/proyecto-legalapp/banner-superior-legalapp.png">
+        <div class="container-proyecto descripcion-proyecto">
+            <p class="texto-descripcion">LEGALAPP es una aplicación móvil que funciona como asistente para tareas académicas de estudiantes de derecho. Tiene diferentes funciones especiales para apoyar el sistema de estudio de estos estudiantes.</p>
+            
+            <div class="foto-descripcion">
+                <img src="insumos/proyecto-legalapp/img-arriba-legalapp.png"> 
+            </div> 
+        </div>
+        <ul class="container-proyecto temas-proyecto">
+            <li><img src="insumos/hab-1.png"></li>
+            <li><img src="insumos/hab-3.png"></li>
+            <li><img src="insumos/hab-4.png"></li>
+            <li><img src="insumos/hab-7.png"></li>
+        </ul>
+        <div class="container-proyecto proceso-proyecto">
+            <div class="paso-proceso">
+                <div class="columna-texto sin-borde-arriba">
+                    <h3>Problema</h3>
+                    <p>¿De qué manera se puede potencializar el desempeño de los estudiantes de derecho a través de a interacción con una herramienta tecnológica?</p>
+                </div>
+                <div class="columna-imagenes punto-diamante">
+<!--                    <img src="insumos/proyecto-domu/circulo-diamante.png">-->
+                </div>
+            </div>
+            <div class="paso-proceso">
+                <div class="columna-texto">
+                    <h3>Investigación</h3>
+                    <p class="palabras-clave">Plan de estudios</p>
+                    <p class="palabras-clave">Tipos de estudiantes</p>
+                    <p class="palabras-clave">Nuevos modelos de estudiantes</p>
+                </div>
+                <div class="columna-imagenes triangulo">
+                    <img src="insumos/proyecto-legalapp/diamante-legalapp-1.png">
+                </div>
+            </div>
+            <div class="paso-proceso">
+                <div class="columna-texto sin-borde-arriba">
+                    <h3>Clarificación</h3>
+                    <p class="palabras-clave">Métodos de estudios</p>
+                    <p class="palabras-clave">Creación de estudiantes</p>
+                    <p class="palabras-clave">Actividades de estudiantes de derecho</p>
+                </div>
+                <div class="columna-imagenes triangulo">
+                    <img src="insumos/proyecto-legalapp/diamante-legalapp-2.png">
+                </div>
+            </div>
+            <div class="paso-proceso">
+                <div class="columna-texto sin-borde-arriba">
+                    <h3>Análisis del problema</h3>
+                </div>                
+                <div class="columna-imagenes punto-diamante">
+<!--                    <img src="insumos/proyecto-domu/circulo-diamante.png">-->
+                </div>
+            </div>
+            <div class="paso-proceso">
+                <div class="columna-texto ">
+                    <h3>Idear</h3>
+                    <p class="palabras-clave">Comunicación entre estudiantes y profesores</p>
+                    <p class="palabras-clave">Biblioteca de documentos</p>
+                    <p class="palabras-clave">Espacio de foros y debetes</p>
+                    <p class="palabras-clave">Registro de tareas</p>
+                </div>
+                <div class="columna-imagenes triangulo">
+                    <img src="insumos/proyecto-legalapp/diamante-legalapp-3.png">
+                </div>
+            </div>
+            <div class="paso-proceso">
+                <div class="columna-texto sin-borde-arriba con-borde-abajo">
+                    <h3>Desarrollar</h3>
+                    <p class="palabras-clave">Aplicación móvil</p>
+                    <p class="palabras-clave">Redes social</p>
+                    <p class="palabras-clave">Gamification</p>
+                </div>
+                <div class="columna-imagenes triangulo">
+                    <img src="insumos/proyecto-legalapp/diamante-legalapp-4.png">
+                </div>
+            </div>
+            
+        </div>
+        <div class="container-proyecto descripcion-proyecto">
+            <h3>Solución</h3>
+            <p class="texto-descripcion">Asistente digital de tareas académicas para estudiantes de derecho. En donde pueden comunicarse entre estudiantes y profesores, crear espacios de foros y debates, registrar tareas y llevar una biblioteca de documentos.</p>
+            
+            <div class="foto-descripcion">
+                <img src="insumos/proyecto-legalapp/img-abajo-legalapp.png"> 
+            </div> 
+        </div>
+        <img class="footer-proyecto" src="insumos/proyecto-legalapp/banner-inferior-legalapp.png">
+    </div><!--Cierre proyecto-->
+    
+    
+    <!--CEDIMA - PROYECTO 5-->
+    
+    <div class="proyecto proximo" id="proyecto5">
+        
+        <img class="portada-proyecto" src="insumos/proyecto-cedima/banner-cedima.png">
+        <div class="container-proyecto descripcion-proyecto">
+            <p class="texto-descripcion">CEDIMA es una IPS Privada, con gran responsabilidad y compromiso social, que hace 25 años contribuye al mejoramiento en la calidad de vida de sus clientes.</p>
+            
+            <div class="foto-descripcion">
+                <img src="insumos/proyecto-cedima/img-arriba-cedima.jpg"> 
+            </div> 
+        </div>
+        <ul class="container-proyecto temas-proyecto">
+            <li><img src="insumos/hab-2.png"></li>
+            <li><img src="insumos/hab-10.png"></li>
+            <li><img src="insumos/hab-8.png"></li>
+            <li><img src="insumos/hab-7.png"></li>
+        </ul>
+        
+        <div class="container-proyecto proceso-proyecto">
+            <div class="paso-proceso">
+                <div class="columna-texto sin-borde-arriba">
+                    <h3>Rediseño de marca</h3>
+                </div>
+            </div>
+            <div class="paso-proceso">
+                <div class="columna-texto borde-derecha">
+                    <p class="palabras-clave">Creación de marca</p>
+                    <p class="palabras-clave">Aplicación de marca</p>
+                    <img src="insumos/proyecto-cedima/contenido-1-cedima.jpg">
+                </div>
+                <div class="columna-imagenes circulo">
+                    <img src="insumos/proyecto-cedima/ciruclo-cedima-1.png">
+                </div>
+            </div>
+            <div class="paso-proceso">
+                <div class="columna-texto sin-borde-arriba">
+                    <h3>Aplicación de la marca</h3>
+                </div>
+            </div>
+            <div class="paso-proceso">
+                <div class="columna-texto borde-derecha">
+                    <p class="palabras-clave">Papelería - Material P.O.P.</p>
+                    <p class="palabras-clave">Carpeta e insumos de exámenes</p>
+                    <p class="palabras-clave">Página web</p>
+                    <p class="palabras-clave">Redes sociales</p>  
+                    <p class="palabras-clave">Stand y souvenirs</p>
+                    <p class="palabras-clave">Plantillas de presentación</p>
+                    <p class="palabras-clave">Material Audiovisual</p>
+                    <img src="insumos/proyecto-cedima/contenido-2-cedima.png">
+                </div>
+                <div class="columna-imagenes circulo">
+                    <img src="insumos/proyecto-cedima/ciruclo-cedima-2.png">
+                </div>
+            </div>
+            <div class="paso-proceso">
+                <div class="columna-texto sin-borde-arriba">
+                    <h3>Aplicación de marca</h3>
+                </div>    
+            </div>
+            <div class="paso-proceso">
+                <div class="columna-texto borde-derecha">
+                    <p class="palabras-clave">Tarjetas de presentación</p>
+                    <p class="palabras-clave">Vademécum</p>
+                    <p class="palabras-clave">Ayuda ventas</p>
+                    <p class="palabras-clave">Plantillas de presentación</p>   
+                    <img src="insumos/proyecto-cedima/contenido-3-cedima.jpg">
+                </div>
+                <div class="columna-imagenes circulo">
+                    <img src="insumos/proyecto-cedima/ciruclo-cedima-3.png">
+                </div>
+            </div>
+        </div>
+        
+        <img class="footer-proyecto" src="insumos/proyecto-cedima/banner-inferior-cedima.png">
+    </div><!--Cierre proyecto-->
+    
+    
+    <!--JIMEX - PROYECTO 6-->
+    
+    <div class="proyecto proximo" id="proyecto6">
+        
+        <img class="portada-proyecto" src="insumos/proyecto-jimex/banner-jimex.png">
+        <div class="container-proyecto descripcion-proyecto">
+            <p class="texto-descripcion">JIMEX PHARMA es una empresa realizadora de medicamentos homeopáticos. Sus productos son basados en inumos de la naturaleza.</p>
+            
+            <div class="foto-descripcion">
+                <img src="insumos/proyecto-jimex/img-arriba-jimex.png"> 
+            </div> 
+        </div>
+        <ul class="container-proyecto temas-proyecto">
+            <li><img src="insumos/hab-2.png"></li>
+            <li><img src="insumos/hab-10.png"></li>
+            <li><img src="insumos/hab-8.png"></li>
+            <li><img src="insumos/hab-7.png"></li>
+        </ul>
+        
+        <div class="container-proyecto proceso-proyecto">
+            <div class="paso-proceso">
+                <div class="columna-texto sin-borde-arriba">
+                    <h3>Rediseño de marca</h3>
+                </div>
+            </div>
+            <div class="paso-proceso">
+                <div class="columna-texto borde-derecha">
+                    <p class="palabras-clave">Creación de marca</p>
+                    <p class="palabras-clave">Aplicación de marca</p>
+                    <img src="insumos/proyecto-jimex/contenido-1-jimex.jpg">
+                </div>
+                <div class="columna-imagenes circulo">
+                    <img src="insumos/proyecto-jimex/ciruclo-jimex-1.png">
+                </div>
+            </div>
+            <div class="paso-proceso">
+                <div class="columna-texto sin-borde-arriba">
+                    <h3>Rediseño de prouctos</h3>
+                </div>
+            </div>
+            <div class="paso-proceso">
+                <div class="columna-texto borde-derecha">
+                    <p class="palabras-clave">Etiquetas y cajas de gotas</p>
+                    <p class="palabras-clave">Etiquetas y cajas de cápsulas</p>
+                    <p class="palabras-clave">Etiquetas y cajas de cremas</p>
+                    <p class="palabras-clave">Etiquetas y cajas de jarabes</p>     
+                    <img src="insumos/proyecto-jimex/contenido-2-jimex.jpg">
+                </div>
+                <div class="columna-imagenes circulo">
+                    <img src="insumos/proyecto-jimex/ciruclo-jimex-2.png">
+                </div>
+            </div>
+            <div class="paso-proceso">
+                <div class="columna-texto sin-borde-arriba">
+                    <h3>Aplicación de marca</h3>
+                </div>    
+            </div>
+            <div class="paso-proceso">
+                <div class="columna-texto borde-derecha">
+                    <p class="palabras-clave">Tarjetas de presentación</p>
+                    <p class="palabras-clave">Vademécum</p>
+                    <p class="palabras-clave">Ayuda ventas</p>
+                    <p class="palabras-clave">Plantillas de presentación</p>   
+                    <img src="insumos/proyecto-jimex/contenido-3-jimex.jpg">
+                </div>
+                <div class="columna-imagenes circulo">
+                    <img src="insumos/proyecto-jimex/ciruclo-jimex-3.png">
+                </div>
+            </div>
+        </div>
+        
+        <img class="footer-proyecto" src="insumos/proyecto-jimex/banner-abajo-jimex.png">
+    </div><!--Cierre proyecto-->
+    
+    
+</body>
