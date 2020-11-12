@@ -516,6 +516,7 @@ p{
     border-radius: 10px;
     display: inline-block;
     margin-right: 12px;
+    cursor: pointer;
 }
 
 .punto-navegacion:last-child{
