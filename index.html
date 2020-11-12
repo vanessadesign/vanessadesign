@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
 	<meta charset="UTF-8">
-	<title>VANGOM</title>
+	<title>Vanessa Gómez Mejía</title>
 
 	<!-- JavaScript -->
 	<script type="text/javascript"  src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
@@ -22,7 +22,8 @@
 
 
 	<!-- fuentes -->
-	<link href='https://fonts.googleapis.com/css?family=Poppins:400,300,500,600,700' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Poppins:wght@400;700&family=Raleway:wght@300;400&display=swap" rel="stylesheet">
+
 
 	<!-- favicon -->
 	<link rel="icon" type="image/ico" href="images/gesco-icon.png" />
@@ -47,8 +48,8 @@
 	<!--INICIO-->
 	<div id="inicio">
 		<div id="titulo">
-			<img class="logo" id="logo-1" src="insumos/logo-vangom.png" hover="logo()">
-            <img class="logo" id="logo-2" src="insumos/logo-vangom-2.png">
+            <h1 id="nombre-inicio">Vanessa Gómez Mejía</h1>
+            <h2 id="titulo-inicio">-Diseñadora de Medios Interactivos-</h2>
 		</div>
 
         <div id="page-scroll">
@@ -59,44 +60,39 @@
 	</div>
 
 	<!--ABOUT-->
-	<div id="about" class="container-fluid">
-		<div class="col-lg-offset-2 col-md-offset-2 col-sm-offset-1 col-xs-offset-1 col-lg-4 col-md-4 col-sm-4 col-xs-10">
-			<p> ¡Hola! Soy Vanessa Gómez Mejía, <strong>Diseñadora de Medios Interactivos</strong> de la Universidad ICESI de Cali, Colombia. <br><br> Además, soy <strong>Diseñadora Multimedial</strong> de la Fundación Academia de Dibujo Profesional, y cuento con una <strong>especialización en Diseño UX|UI</strong> en Acámica de Buenos Aires, Argentina.</p>
+	<div id="about">
+		<div id="texto-about">
+            <img src="insumos/comillas-abre.png">
+            <p> ¡Hola! Soy Vanessa Gómez Mejía, <strong>Diseñadora de Medios Interactivos</strong> de la Universidad ICESI de Cali, Colombia. <br><br> Además, soy <strong>Diseñadora Multimedial</strong> de la Fundación Academia de Dibujo Profesional, y cuento con una <strong>especialización en Diseño UX|UI</strong> en Acámica de Buenos Aires, Argentina.</p>
+            <img src="insumos/comillas-cierra.png">
 		</div>
-        <div class="foto col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-xs-offset-3 col-lg-3 col-md-3 col-sm-3 col-xs-5">
+        <div id="foto-about">
             <img src="insumos/foto-portafolio.png">
+            <p id="frase">“Diseño con sentido y pasión, no por trabajo” </p>
         </div>
-	</div>
-
-    <!--HABILIDADES-->
-	<div id="habilidades" class="container-fluid">
-		<div class="col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-xs-offset-1 col-lg-2 col-md-2 col-sm-3 col-xs-4">
-			<img class="hab-grandes hab-mov" src="insumos/hab-1.png">
-		</div>
-		<div class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
-			<img class="hab-mediano-ar hab-mov" src="insumos/hab-2.png">
-			<img class="hab-mediano-ab hab-mov" src="insumos/hab-3.png">
-		</div>
-        <div class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
-			<img class="hab-grandes-2 hab-mov" src="insumos/hab-4.png">
-		</div>
-        <div class="col-lg-offset-0 col-md-offset-0 col-sm-offset-3 col-xs-offset-3 col-lg-2 col-md-2 col-sm-3 col-xs-4">
-			<img class="hab-mediano-ar-2 hab-mov" src="insumos/hab-5.png">
-			<img class="hab-mediano-ab-2 hab-mov" src="insumos/hab-6.png">
-		</div>
-        <div class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
-			<img class="hab-grandes hab-mov" src="insumos/hab-7.png">
-		</div>
 	</div>
 
     <!--PROYECTOS-->
 
-    <div id="proyectos" class="container-fluid" >
+    <div id="container-proyectos">
 
-        <!--Cero proyecto-->
-		<a onclick="irAProyecto(0)" class="btnProyectos proyecto-ceron col-lg-12 col-md-12 col-sm-12 col-xs-12">
-            <div class="proy-destacado" id="proy-0">
-                <!-- <img class="img-proy" src="insumos/img-proyectos/v-proyecto-0.png" alt="" />   -->
+        <!--Proyecto 0-->
+		<a onclick="irAProyecto(0)" class="btnProyectos btnProyectos-mitad">
+            <div class="proy" id="proy-0">
+                <div class="detalles-proy">
+                    <h3 class="titulo-proy">Q·enta</h3>
+                    <div class="etiquetas">
+                        <p>Research</p>
+                        <p>Diseño de Experiencias</p>
+                        <p>Diseño de Interfaz</p>
+                    </div>
+                </div>
+            </div>
+        </a>
+
+        <!--Proyecto 1-->
+		<a onclick="irAProyecto(1)" class="btnProyectos btnProyectos-mitad">
+            <div class="proy" id="proy-1">
                 <div class="detalles-proy">
                     <h3 class="titulo-proy">DOMU</h3>
                     <div class="etiquetas">
@@ -108,14 +104,9 @@
             </div>
         </a>
 
-    </div>
-
-	<div id="proyectos" class="container-fluid">
-
-        <!--Primer proyecto-->
-		<a onclick="irAProyecto(1)" class="btnProyectos col-lg-4 col-md-4 col-sm-6 col-xs-12">
-            <div class="proy" id="proy-1">
-                <!-- <img class="img-proy" src="insumos/img-proyectos/v-proyecto-1.png" alt="" />   -->
+        <!--Proyecto 2-->
+		<a onclick="irAProyecto(2)" class="btnProyectos btnProyectos-tercio">
+            <div class="proy" id="proy-2">
                 <div class="detalles-proy">
                     <h3 class="titulo-proy">roomob</h3>
                     <div class="etiquetas">
@@ -127,10 +118,9 @@
             </div>
         </a>
 
-        <!--Segundo proyecto-->
-        <a onclick="irAProyecto(2)" class="btnProyectos col-lg-4 col-md-4 col-sm-6 col-xs-12">
-            <div class="proy" id="proy-2">
-                <!-- <img class="img-proy" src="insumos/img-proyectos/v-proyecto-2.png" alt="" /> -->
+        <!--Proyecto 3-->
+        <a onclick="irAProyecto(3)" class="btnProyectos btnProyectos-tercio">
+            <div class="proy" id="proy-3">
                 <div class="detalles-proy">
                     <h3 class="titulo-proy">Money Sensei</h3>
                     <div class="etiquetas">
@@ -142,10 +132,9 @@
             </div>
         </a>
 
-        <!--Tercer proyecto-->
-        <a onclick="irAProyecto(3)" class="btnProyectos col-lg-4 col-md-4 col-sm-6 col-xs-12">
-            <div class="proy" id="proy-3">
-                <!-- <img class="img-proy" src="insumos/img-proyectos/v-proyecto-3.png"> -->
+        <!--Proyecto 4-->
+        <a onclick="irAProyecto(4)" class="btnProyectos btnProyectos-tercio">
+            <div class="proy" id="proy-4">
                 <div class="detalles-proy">
                     <h3 class="titulo-proy">D&amp;M</h3>
                     <div class="etiquetas">
@@ -157,10 +146,9 @@
             </div>
         </a>
 
-        <!--Cuarto proyecto-->
-        <a onclick="irAProyecto(4)" class="btnProyectos col-lg-4 col-md-4 col-sm-6 col-xs-12">
-            <div class="proy" id="proy-4">
-                <!-- <img class="img-proy" src="insumos/img-proyectos/v-proyecto-4.png" alt="" />   -->
+        <!--Proyecto 5-->
+        <a onclick="irAProyecto(5)" class="btnProyectos btnProyectos-tercio">
+            <div class="proy" id="proy-5">
                 <div class="detalles-proy">
                     <h3 class="titulo-proy">Legalapp</h3>
                     <div class="etiquetas">
@@ -172,10 +160,9 @@
             </div>
         </a>
 
-        <!--Quinto proyecto-->
-        <a onclick="irAProyecto(5)" class="btnProyectos col-lg-4 col-md-4 col-sm-6 col-xs-12">
-            <div class="proy" id="proy-5">
-                <!-- <img class="img-proy" src="insumos/img-proyectos/v-proyecto-5.png" alt="" /> -->
+        <!--Proyecto 6-->
+        <a onclick="irAProyecto(6)" class="btnProyectos btnProyectos-tercio">
+            <div class="proy" id="proy-6">
                 <div class="detalles-proy">
                     <h3 class="titulo-proy">CEDIMA</h3>
                     <div class="etiquetas">
@@ -187,10 +174,9 @@
             </div>
         </a>
 
-        <!--Sexto proyecto-->
-        <a onclick="irAProyecto(6)" class="btnProyectos col-lg-4 col-md-4 col-sm-6 col-xs-12">
-            <div class="proy" id="proy-6">
-                <!-- <img class="img-proy" src="insumos/img-proyectos/v-proyecto-6.png"> -->
+        <!--Proyecto 7-->
+        <a onclick="irAProyecto(7)" class="btnProyectos btnProyectos-tercio">
+            <div class="proy" id="proy-7">
                 <div class="detalles-proy">
                     <h3 class="titulo-proy">Jimex</h3>
                     <div class="etiquetas">
@@ -206,21 +192,20 @@
 
 
     <!--CONTACTOS-->
-    <div id="contacto" class="container-fluid">
-
-        <a class="col-lg-offset-4 col-md-offset-4 col-sm-offset-4 col-xs-offset-4 col-lg-2 col-md-2 col-sm-2 col-xs-2" href="https://www.behance.net/VanessaGomez" target="_blank">
-            <img src="insumos/logo-behance.png" class="hab-mov" alt="" />
-        </a>
-
-        <a class="col-lg-offset-0 col-md-offset-0 col-sm-offset-0 col-xs-offset-0 col-lg-2 col-md-2 col-sm-2 col-xs-2" href="https://www.linkedin.com/in/vanessa-gomez/" target="_blank">
-            <img src="insumos/logo-in.png" class="hab-mov" alt="" />
-        </a>
-    </div>
-
-    <div id="correo" class="container-fluid">
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-            <a href="mailto:vanessa.gomez0924"><h4>vanessa.gomez0924@gmail.com</h4></a>
+    <div id="contacto">
+        <div id="container-gracias">
+            <img src="insumos/corazon.png">
+            <p id="gracias">-Gracias-</p>
         </div>
+
+        <a id="btn-descarga" href="vanessa-gomez_cv.pdf" download target="_blank">
+            <img src="insumos/icn-descarga.png">
+            <p>Descargar hoja de vida</p>
+        </a>
+
+        <a id="link-li" class="link-contacto" href="https://www.linkedin.com/in/vanessa-gomez/" target="_blank">www.linkedin.com/in/vanessa-gomez</a>
+        <a id="link-be" class="link-contacto" href="https://www.behance.net/VanessaGomez" target="_blank"> www.behance.net/VanessaGomez</a>
+        <a id="link-correo" class="link-contacto" href="mailto:vanessa.gomez0924">vanessa.gomez0924@gmail.com</a>
     </div>
     </body>
 </html>

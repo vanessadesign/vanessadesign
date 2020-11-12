@@ -12,7 +12,7 @@ $(function(){
 
                  var targetOffset = $target.offset().top;
 
-                 $('html,body').animate({scrollTop: targetOffset}, 1000);
+                 $('html,body').animate({scrollTop: targetOffset}, 500);
 
                  return true;
             }
@@ -41,7 +41,7 @@ $(function(){
 
 
 function p1(){
-    
+
     $(".punto").css({
        "background":"#B6F2EA"
    });
@@ -72,10 +72,6 @@ function p4(){
    $(".p4").css({
        "background":"#1AE8E4"
    });
-}
-
-function logo(){
-    $("#logo").toggle();
 }
 
 function irAProyecto(e){
