@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function(){
     var btnAnterior = document.getElementById("btn-anterior");
     proyectos = document.getElementsByClassName("proyecto");
     puntosNavegacion = document.getElementsByClassName("punto-navegacion");
-    
+    dir=0;
     dir = window.localStorage.getItem("numProyecto");
     if(dir == null){
         dir = 0;

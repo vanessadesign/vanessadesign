@@ -23,12 +23,22 @@ body{
     margin: 0;
 }
 
-p, h3, h4{
+p, h2, h3, h4{
     font-family: 'Poppins', sans-serif;
 }
 
 p{
     font-size: 14px;
+}
+
+h2{
+    font-size: 20px;
+}
+
+h4{
+    font-size: 14px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 #container-puntos{
@@ -174,6 +184,7 @@ p{
     position: absolute;
     bottom: -36px;
     right: -15px;
+    text-align: center;
 }
 
 #container-proyectos{
@@ -602,12 +613,16 @@ p{
     align-self: center;
 }
 
+.titulo-descripcion{
+    margin-bottom: 0;
+    vertical-align: top;
+}
+
 .texto-descripcion{
     width: 43%;
     margin-right: 10%;
     display: inline-block;
     vertical-align: top;
-    font-size: 18px;
 }
 
 .foto-descripcion{
