@@ -166,7 +166,7 @@ h4{
 }
 
 #foto-about{
-    width: 40%;
+    width: 35%;
     position: relative;
 }
 
@@ -393,9 +393,21 @@ h4{
 }
 
 @media(max-width: 768px){
+    #about{
+        flex-direction: column;
+        padding: 98px 0;
+    }
+
+    #texto-about {
+        width: 90%;
+    }
 
     #texto-about p {
         width: 90%;
+    }
+
+    #foto-about {
+        width: 60%;
     }
 
     #frase{
@@ -439,10 +451,6 @@ h4{
         font-size: 14px;
     }
 
-    #about{
-        flex-direction: column;
-        padding: 98px 0;
-    }
 
     #texto-about{
         width: 100%;
